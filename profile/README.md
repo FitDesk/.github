@@ -179,7 +179,7 @@ Para automatizar la construcción y despliegue del proyecto, se ha implementado 
 - **Construcción y Despliegue en Push:**
   - Construcción y validación del proyecto.
   - Login en Docker Hub, construcción y push de la imagen Docker.
-  - Despliegue automático en servicios como Render y Koyeb mediante hooks y redeploys.
+  - Despliegue automático en Azure mediante Docker y Azure Container Service for WebApp.
 
 > ![Arquitectura](./public/CI-CD.png)
 
