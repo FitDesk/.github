@@ -207,6 +207,9 @@ Para automatizar la construcción y despliegue del proyecto, se ha implementado 
   - Login en Docker Hub, construcción y push de la imagen Docker.
   - Despliegue automático en Azure mediante Docker y Azure Container Service for WebApp.
 
+> ***Diagrama de CI/CD***
+> ![Arquitectura](./public/CI-CD.png)
+> ***Diagrama Azure***
 > ![Arquitectura](./public/CI-CD.png)
 
 ---
