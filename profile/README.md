@@ -26,7 +26,7 @@ Sistema de Gimnacio FitDesk
 
 - **Modularidad:** Cada dominio del negocio se implementa como un microservicio independiente.
 - **Escalabilidad:** Diseñado para crecer y adaptarse a nuevos requerimientos.
-- **Seguridad:** Implementación de seguridad con Spring Security y JWT en Cookies.
+- **Seguridad:** Implementación de seguridad con Spring Security , JWT  y   JWK Set URI en Cookies.
 - **Interfaz Intuitiva:** Frontend moderno y responsive desarrollado en React 19.
 - **Documentación Completa:** APIs documentadas con Swagger/OpenAPI.
 - **Integración Continua:** Automatización del proceso de construcción y despliegue a través de GitHub Actions.
@@ -39,12 +39,23 @@ La solución se basa en una arquitectura de microservicios, la cual permite:
 
 - **Desarrollo y despliegue independiente:** Cada servicio puede ser actualizado sin afectar a los demás.
 - **Comunicación mediante REST APIs:** Los microservicios se comunican de forma segura y eficiente.
+- **Descubrimiento de Servicios:** Utilización de Eureka Netflix para la gestión dinámica de servicios.
+- **Resiliencia:** Implementación de patrones de resiliencia con Resilience4j.
+- **Mensajería Asincrona:** Comunicación entre microservicios mediante Kafka.
+- **Circuit Breaker:** Protección contra fallos en cascada entre microservicios.
 - **Balanceo y Gateway:** Un API Gateway centraliza las solicitudes y distribuye la carga.
 - **Base de Datos Autónoma:** Cada microservicio utiliza su propia base de datos PostgreSQL.
 
 > **Diagrama de Arquitectura:**  
 > ![Arquitectura](./public/architecture.png)
 
+**Diagrama de Seguridad:**  
+> ***Diagrama de Login***
+> ![Login](./public/login.png)
+> ***Diagrama de Register***
+> ![Register](./public/register.png)
+> ***Diagrama de Request***
+> ![Request](./public/request.png)
 ---
 
 ## 4. Tecnologías Utilizadas
@@ -142,6 +153,7 @@ La aplicación React 19 centraliza las funcionalidades de todos los microservici
    Revisa y ajusta los archivos de configuración o utiliza un archivo de ejemplo como `.env.example`.
 
 3. **Ejecutar los Microservicios:**
+
    ```bash
    ./mvnw spring-boot:run
    ```
@@ -161,6 +173,7 @@ La aplicación React 19 centraliza las funcionalidades de todos los microservici
    ```
 
 3. **Ejecutar la Aplicación:**
+
    ```bash
    bun run dev
    ```
