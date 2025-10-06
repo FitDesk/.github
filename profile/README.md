@@ -63,6 +63,11 @@ La solución se basa en una arquitectura de microservicios, la cual permite:
 ### Backend
 
 - **Java** con Spring Boot, Spring Data y Spring Security.
+- **Spring Cloud Netflix Eureka:** Para descubrimiento de servicios.
+- **Spring Cloud Gateway:** Para balanceo de carga y gestión del tráfico.
+- **Spring Cloud Config:** Gestión centralizada de configuraciones.
+- **Kafka:** Comunicación asincrónica entre microservicios.
+- **JWT y JWK Set URI:** Para autenticación y autorización segura.
 - **PostgreSQL:** Bases de datos separadas para cada microservicio.
 - **Lombok:** Para reducir código repetitivo.
 - **Resilience4j:** Manejo de resiliencia en las llamadas a servicios.
@@ -72,10 +77,18 @@ La solución se basa en una arquitectura de microservicios, la cual permite:
 - **React 19:** Desarrollo de la interfaz de usuario.
 - **Tailwind:** Biblioteca de estilos.
 - **Shadcn:** Biblioteca de componentes.
+- **Bun:** Entorno de ejecución y gestor de paquetes.
+- **Axios:** Cliente HTTP para consumir APIs REST.
+- **TanStack Query:** Manejo de estado y caché de datos.
+- **React Hook Form:** Gestión de formularios.
+- **Zod:** Validación de esquemas.
+- **React Router:** Navegación entre vistas.
+- **Zustand:** Manejo de estado global.
 
 ### Infraestructura
 
-- **Spring Cloud Gateway:** Para balanceo de cargas y gestión del tráfico.
+- **GitHub Actions:** Para integración y despliegue continuo (CI/CD).
+- **Azure:** Plataforma de nube para despliegue y alojamiento.
 - **Docker:** Contenerización y despliegue simplificado.
 
 ---
