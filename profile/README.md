@@ -210,7 +210,7 @@ Para automatizar la construcción y despliegue del proyecto, se ha implementado 
 > ***Diagrama de CI/CD***
 > ![Arquitectura](./public/CI-CD.png)
 > ***Diagrama Azure***
-> ![Arquitectura](./public/CI-CD.png)
+> ![Arquitectura](./public/azure-architecture.jpeg)
 
 ---
 
