@@ -47,7 +47,7 @@ La solución se basa en una arquitectura de microservicios, la cual permite:
 - **Base de Datos Autónoma:** Cada microservicio utiliza su propia base de datos PostgreSQL.
 
 > **Diagrama de Arquitectura:**  
-> ![Arquitectura](./public/architecture.png)
+> ![Arquitectura](./public/architecture.jpeg)
 
 **Diagrama de Seguridad:**  
 > ***Diagrama de Login***
